@@ -1,0 +1,223 @@
+body{
+    height: 2050px;
+    width: 100%;
+    background-image: url(./img/bg.jpg);
+}
+
+
+
+.veil{
+    background-color: rgba(47, 23, 15, 0.6);
+    width: 100%;
+    height: 2050px;
+    }
+
+.title {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    /* border: 5px solid black; */
+    
+}
+
+
+.upperheading {
+    color: rgb(230, 167, 86);
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.lowerheading {
+    color: white;
+    font-size: 80px;
+    font-family: Raleway;
+    font-weight: 100;
+}
+
+.nav {
+    /* border: 5px solid black; */
+    height: 105px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: rgba(47, 23, 15, 0.9);
+    /* margin: 10px; */
+}
+
+.navlist {
+    color: white;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 250px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    
+}
+
+.intro {
+    /* border: 5px solid black; */
+    height: 780px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.barista {
+    width: 800px;
+    position: absolute;
+    right: 25px;
+    top: 145px;
+    border-radius: 5px;
+}
+
+.container {
+    height: 350px;
+    width: 600px;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5px;
+    position: absolute;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    text-align: center;
+}
+
+.coffee {
+    font-family: Raleway;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.drinkingtext {
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.introduction {
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 0 35px;
+
+}
+
+.visitbutton {
+    background-color: rgb(230, 167, 86);
+    height: 75px;
+    width: 200px;
+    opacity: 1;
+    color: white;
+    font-family: Lora;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -35px;
+    border: 0;
+    box-shadow: none;
+    
+}
+
+
+
+.promise {
+    /* border: 5px solid black; */
+    height: 565px;
+    background-color: rgb(230, 167, 86);
+    opacity: .9;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.promisecontainer {
+    height: 370px;
+    width: 1050px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.innerborder {
+    border: 5px solid  rgb(230, 167, 86);
+    height: 360px;
+    width: 1040px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.promisetoyou1 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.promisetoyou2 {
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.promisetext {
+    font-family: lora;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 0 40px;
+}
+
+
+.spacer {
+    /* border: 5px solid black; */
+    height: 100px;    
+}
+
+footer {
+    /* border: 5px solid black; */
+    height: 150px;    
+    background-color: rgba(47, 23, 15, 0.9);
+    color: rgba(255,255,255,.3);
+    font-family: Lora;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
